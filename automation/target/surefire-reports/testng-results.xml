@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Opening Chrome Browser...]]>
+    </line>
+    <line>
+      <![CDATA[Closing Browser...]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="15744" started-at="2019-02-26T10:24:14Z" finished-at="2019-02-26T10:24:29Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="15744" started-at="2019-02-26T10:24:14Z" finished-at="2019-02-26T10:24:29Z">
+      <class name="com.gmail.login.TestLogin">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.gmail.login.TestLogin@3567135c]" name="launchBrowser" is-config="true" duration-ms="7015" started-at="2019-02-26T10:24:07Z" finished-at="2019-02-26T10:24:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening Chrome Browser...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.gmail.login.TestLogin@3567135c]" name="testLogin" duration-ms="3106" started-at="2019-02-26T10:24:14Z" finished-at="2019-02-26T10:24:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLogout()[pri:0, instance:com.gmail.login.TestLogin@3567135c]" name="testLogout" duration-ms="12607" started-at="2019-02-26T10:24:17Z" finished-at="2019-02-26T10:24:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogout -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.gmail.login.TestLogin@3567135c]" name="closeBrowser" is-config="true" duration-ms="2081" started-at="2019-02-26T10:24:29Z" finished-at="2019-02-26T10:24:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing Browser...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.gmail.login.TestLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
